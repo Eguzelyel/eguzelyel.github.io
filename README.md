@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Ekrem Guzelyel
+
+Keeping the comments to make changes later on...
 
 You can use the [editor on GitHub](https://github.com/Eguzelyel/eguzelyel.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -22,6 +24,9 @@ Syntax highlighted code block
 2. List
 
 **Bold** and _Italic_ and `Code` text
+
+_Here is a picture of random stuff_
+[Image](https://goo.gl/images/TEg7HJ)
 
 [Link](url) and ![Image](src)
 ```
