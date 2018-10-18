@@ -27,7 +27,7 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 _Here is a picture of random stuff_
-[Image](https://goo.gl/images/TEg7HJ)
+![Image](https://goo.gl/images/TEg7HJ)
 
 [Link](url) and ![Image](src)
 ```
