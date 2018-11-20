@@ -1,6 +1,9 @@
 ## Beginning of the Page
 ----------------
 
+_Here is a picture of random stuff_
+![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfUvp_sL_gzVgQKmAzTrVqYjP0PuoAvTIbtGs_QM03NWMpDsNA)
+
 Keeping the comments to make changes later on...
 
 You can use the [editor on GitHub](https://github.com/Eguzelyel/eguzelyel.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -26,8 +29,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-_Here is a picture of random stuff_
-![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfUvp_sL_gzVgQKmAzTrVqYjP0PuoAvTIbtGs_QM03NWMpDsNA)
+
 
 [Link](url) and ![Image](src)
 ```
