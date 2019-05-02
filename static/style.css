@@ -1,0 +1,74 @@
+body{
+  font-family: 'Open Sans', Helvetica;
+  background-size: 100%; background-position: top;
+  background-size: 100%
+  margin: 0;
+  padding: 0;
+}
+.centered_head{font-size: 40px; text-align: center; color: #3802ea; background-color: white}
+.explainTab{
+  text-align:justify;
+  color: #3802ea; border-outline: 2px; font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px}
+.edatitle{text-align: center; color: #000000}
+.red{color: #000000}
+.buttons{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.btn{
+  /* border: 1px solid #3498db; */
+  border: 1px solid #3802ea;
+  background: none;
+  padding: 1% 5%;
+  font-size: 20px;
+  font-family: 'Open Sans', Helvetica;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn1,.btn2{
+  /* color: #3498db; */
+  color: #3802ea;
+}
+.btn3,.btn4{
+  color: #fff;
+}
+.btn1:hover,.btn2:hover{
+  color: #fff;
+}
+.btn3:hover,.btn4:hover{
+  /* color: #3498db; */
+  color: #3802ea;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  /* background: #3498db; */
+  background: #3802ea;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before,.btn3::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before,.btn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn3::before,.btn4::before{
+  height: 180%;
+}
+.btn1:hover::before,.btn2:hover::before{
+  height: 180%;
+}
+.btn3:hover::before,.btn4:hover::before{
+  height: 0%;
+}
