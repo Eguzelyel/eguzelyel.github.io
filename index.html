@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Chicago Potholes</title>
+    <link rel="stylesheet" href = "{{url_for("static", filename="style.css")}}">
+  </head>
+
+
+  <body>
+    <h1 class="centered_head"> Chicago Potholes </h1>
+
+  <div class="explainTab">
+    <h3 class="red"> Crew-less Pothole Fillers of the Driver-less City </h3>
+
+    Chicago prepares for a driverless city by developing their infrastructure.
+    One of the projects is to solve the city’s biggest problem: Potholes.
+    <br> <br>
+    Chicago has had a problem with potholes for decades. The Chicago Department
+     of Transportation (CDOT) constantly tries to find ways to address this
+     issue more efficiently and has created a system to fill current potholes.
+     However, with the development of driverless, crewless pothole filler
+     vehicles the need for a new infrastructure will arise, where two points
+     will be necessary:
+
+    <ul class="red">
+      <oi> Building a system to keep track of...</oi>
+      <ul>
+        <li>Essential Pothole Analysis</li>
+        <li>Pothole Data</li>
+      </ul>
+      <oi> Developing algorithms that...</oi>
+      <ul>
+        <li>Uses Online Pothole Report Data</li>
+        <li>Sets the Course of the Vehicle</li>
+        <li>Instructs How the Vehicle is Used</li>
+      </ul>
+    </ul>
+
+  </div>
+
+  <div class="buttons">
+    <a href="{{url_for("timeseries")}}">
+      <button class="btn btn1"> Pothole Time Series </button>
+    </a>
+
+    <a href = "{{url_for("completed_potholes")}}">
+      <button class="btn btn2"> Completed Potholes Chicago </button>
+    </a>
+
+    <a href = "{{url_for("heatmap")}}">
+      <button class="btn btn3"> Pothole Heatmap </button>
+    </a>
+
+    <a href = "{{url_for("eda")}}">
+    <button class="btn btn4"> EDA </button>
+  </a>
+  </div>
+
+
+  <p align="center"><font color=#3802ea> Copyright &COPY; by PhD Pothole Detectives. </font></p>
+  <!-- <script>
+    function myFunction() {
+      return {{url_for("timeseries")}}
+    }
+    </script> -->
+
+  </body>
+
+</html>

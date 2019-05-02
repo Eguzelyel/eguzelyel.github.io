@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Chicago Potholes</title>
+    <link rel="stylesheet" href = "{{url_for("static", filename="style.css")}}">
+  </head>
+
+  <body>
+    <h1 class="centered_head"> Potholes EDA </h1>
+
+  <div class="explainTab">
+    <h3> Exploratory Data </h3>
+    <p>
+      Findings for the Chicago Potholes <br>
+      <ul>
+        <li> Weather is the number one effect on pothole occurences. </li>
+        <li> Intersections are highly vulnerable due to cars slowing down or stopping. </li>
+        <li> Wards that have more traffic are more prone to potholes. </li>
+      </ul>
+    </p>
+  </div>
+
+  <div>
+    <h4 class="edatitle"> Potholes by Ward </h4>
+    <center><img src="{{url_for("static", filename="potholesbyward.png")}}" alt="Pothole Time Series" width="50%" border=2px></center>
+    <h4 class="edatitle">Number of Potholes Filled </h4>
+    <center><img src="{{url_for("static", filename="filledbymonth2.png")}}" alt="Number of Potholes Filled" width="50%" border=2px></center>
+    <br>
+    <center><img src="{{url_for("static", filename="filledbymonth3.png")}}" alt="Pothole Filled by Year" width="50%" border=2px></center>
+  </div>
+
+
+  <p align="center"><font color=#3802ea> Copyright &COPY; by PhD Pothole Detectives. </font></p>
+  <!-- <script>
+    function myFunction() {
+      return {{url_for("timeseries")}}
+    }
+    </script> -->
+
+  </body>
+
+  </html>
