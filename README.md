@@ -1,4 +1,4 @@
-# COMING BACK SOON!
+# Ekrem Guzelyel!
 
 Hey! Welcome to my website. I am Ekrem from Chicago. I am an ML enthusiast with random cool projects. The website is under construction, but...
 
@@ -13,7 +13,7 @@ _Here is a picture of random stuff_
 ![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfUvp_sL_gzVgQKmAzTrVqYjP0PuoAvTIbtGs_QM03NWMpDsNA)
 
 
-[Watch this awesome youtube link.](https://www.youtube.com/watch?v=qWfwuJxNWjc)
+[Every AI developer has to see this documentary.](https://youtu.be/5dZ_lvDgevk)
 
 
 
