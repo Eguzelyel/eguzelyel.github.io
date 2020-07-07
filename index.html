@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ekrem Guzelyel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 20px;}
+  .bg-1 { 
+    background-image: url(background/hex_back_cut1.jpg);
+    /*background-color: #1abc9c; /* Green */*/
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-image: url(background/blue_back.jpg);
+    /*background-color: #474e5d; /* Dark Blue */*/
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-image: url(background/hex_back_small.jpg);
+    /*background-color: #474e5d; /* Dark Blue */*/
+    color: #ffffff;
+  }
+  .bg-4 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-5 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">INTRO</a></li>
+        <li><a href="#">BACKGROUND</a></li>
+        <li><a href="#">CONNECT</a></li>
+        <li><a href="#">PROJECTS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin" >Intro</h3> <!-- style="font-size: 30px" -->
+  <img src="me/4.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>Constant learner of ML, Illinois Tech 2020</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Background</h3>
+  <p>Hi! I am Ekrem from Chicago. I'll be graduating with my BS/MS degree in Computer Science and Artificial Intelligence in December. You can also check my github to learn more about me. </p>
+  <a href="Resume_Sm2020_EkremGuzelyel.pdf" class="btn btn-default btn-lg">
+    <span class="glyphicon"></span> Resume
+  </a>
+  <a href="https://www.github.com/Eguzelyel" class="btn btn-default btn-lg">
+    <span class="glyphicon"></span> GitHub
+  </a>
+</div>
+
+<!-- Second and a Half Container -->
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">Ways to Connect</h3>
+  <p>I am always open to connect with new people. Just type my name to Google and shoot a connection request via the first result. Or just send me an email at myfirstnamelastname@gmail.com </p>
+  <!-- <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon "></span> Change this to linkedin logo
+  </a> -->
+  <a href="https://www.linkedin.com/in/ekrem-guzelyel" > <!-- class="btn btn-default btn-lg" -->
+         <img alt="Linkedin" src="icons/in.jpg" height="45"> <!-- width=100" -->
+  </a>
+  <a href="https://twitter.com/EkremGuzelyel" > <!-- class="btn btn-default btn-lg" -->
+         <img alt="Twitter" src="icons/twitter.png" height="45"> <!-- width=100" -->
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=100007000756766" > <!-- class="btn btn-default btn-lg" -->
+         <img alt="Facebook" src="icons/fb.png" height="45"> <!-- width=100" -->
+  </a>
+  <a href="mailto:ekremguzelyel@gmail.com">
+    <img alt="Gmail" src="icons/gmail.png" height="45">
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-4 text-center">    
+  <h3 class="margin">Projects</h3><br>
+  <div class="row">
+    <div class="col-sm-4"> 
+      <p>Should you be gentle or ruthless if you run for 2020 Presidency? </p>
+      <a href="https://github.com/Eguzelyel/2020-pres-analysis">
+        <img src="Projects/TweetAnlys.jpg" class="img-responsive margin" style="width:100%" alt="2020PresTweet">
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <p>Ever wondered what to do when you need a flu-shot? </p>
+      <a href="https://github.com/awaris123/easy-shot">
+        <img src="Projects/EasyShot.png" class="img-responsive margin" style="width:100%" alt="EasyShot">
+      </a>
+    </div>
+    <div class="col-sm-4"> 
+      <p>Chicago roads are full of potholes that requires an efficient filling algorithm. Not anymore! </p>
+      <a href="https://www.potholefillerchicago.com">
+        <img src="Projects/Pothole.png" class="img-responsive margin" style="width:100%" alt="PotholeFiller">
+      </a>  
+    </div>
+  </div> 
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-5 text-center">
+  <p> Ekrem Guzelyel 2020 &copy; </p> 
+</footer>
+
+</body>
+</html>
+
+
